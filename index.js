@@ -1,6 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
+const http = require('http');
 
 
 ;(async () => {
@@ -14,3 +15,10 @@ const path = require('path');
         console.log(`Done`);
     })
 }) ();
+
+http
+    .createServer((request, response) => {
+        response.write('Hello');
+        response.end();
+    })
+    .listen(3000);
