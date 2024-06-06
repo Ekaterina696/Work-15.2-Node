@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Ekaterina696/Work-15.2-Node/issues"
   },
-  "homepage": "https://github.com/Ekaterina696/Work-15.2-Node#readme"
+  "homepage": "https://github.com/Ekaterina696/Work-15.2-Node#readme",
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
 }
